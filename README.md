@@ -78,7 +78,7 @@ Instead of strict FIFO, we calculate a **priority score** for each order every 3
 Priority Score = (Wait Time × 40%) + (Complexity × 25%) + (Loyalty × 10%) + (Urgency × 25%)
 ```
 
-#### Priority Components
+####
 
 1. **Wait Time (40%)** - Linear increase from 0-10 minutes
 2. **Complexity (25%)** - Shorter orders get higher scores for throughput
