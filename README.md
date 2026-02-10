@@ -158,14 +158,52 @@ pip install -r requirements.txt
 **Dependencies:**
 - `numpy` - Statistical calculations and Poisson distribution
 - `matplotlib` - Performance visualization (optional)
+- `streamlit` - Web dashboard interface
+- `plotly` - Interactive charts and visualizations
+- `pandas` - Data manipulation and analysis
 
 ---
 
 ## 💻 Usage
 
-### Run Modes
+### 🌐 Streamlit Web Dashboard (Recommended)
 
-The system supports multiple execution modes:
+Launch the interactive web dashboard for the best experience:
+
+```bash
+streamlit run app.py
+```
+
+The dashboard will open in your browser at `http://localhost:8501` with the following features:
+
+**🏠 Home Dashboard**
+- Real-time queue status and metrics
+- Barista workload visualization
+- Performance trends and charts
+- Quick access to all features
+
+**🛒 Order Management**
+- Submit new orders through web form
+- View current queue with priorities
+- Monitor order status in real-time
+
+**🎮 Live Simulation**
+- Run simulations with custom parameters
+- Choose between Priority Queue and FIFO
+- Adjust number of baristas and arrival rate
+- View results with interactive charts
+
+**📈 Analytics**
+- Performance comparison (Priority Queue vs FIFO)
+- Historical trends and insights
+- Wait time distribution analysis
+- Workload balance metrics
+
+---
+
+### 🖥️ Command Line Interface
+
+The system also supports command-line execution:
 
 #### 1. Single Simulation (Default)
 
